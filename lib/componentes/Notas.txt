@@ -1,0 +1,5 @@
+"import" se utiliza para importar los recursos o herramientas necesarias para programar 
+
+"extends" se utiliza para heredar los datos de una clase a otra, de clase padre a clase hijo 
+
+"StatelessWidget" es una porción de la interfaz que no responde a cambios en los datos.

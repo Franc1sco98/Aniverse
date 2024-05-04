@@ -8,9 +8,9 @@ class PortadasAnimes extends StatelessWidget {
         Image.network(
           'https://m.media-amazon.com/images/I/71QJjQRuEWL._AC_UF1000,1000_QL80_.jpg',
           //width: 100.0, este es el alto de la imagen
-          fit: BoxFit.cover,
+          fit: BoxFit.cover, //este comando sirve para ajustar el tamaño de una imagen dentro de un contenedor
         ),
-        SizedBox(width: 10.0,)
+        SizedBox(width: 10.0,) 
       ],
     );
   }

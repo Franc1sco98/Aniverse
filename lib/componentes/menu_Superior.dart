@@ -5,30 +5,30 @@ class Menu_Superior extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-
       children: <Widget>[
-        Image.asset('recursos/imgs/logo.png',
-        width: 50.0,
-        height: 50.0,
+        Image.asset('recursos/imgs/logo.png', // Carga la imagen del logo desde los assets o recursos
+          width: 50.0,
+          height: 50.0,
         ),
-        Text(
-          'Animes',
+        Text('Animes',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 16.0
-        ),
+            fontSize: 16.0,
+          ),
         ),
         Text('Peliculas',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 16.0
-        ),),
+            fontSize: 16.0,
+          ),
+        ),
         Text('Proximamente',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 16.0
-        ),),
-      ],    
+            fontSize: 16.0,
+          ),
+        ),
+      ],
     );
   }
 }
