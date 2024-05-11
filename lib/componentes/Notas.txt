@@ -1,5 +1,69 @@
-"import" se utiliza para importar los recursos o herramientas necesarias para programar 
+Terminos
 
-"extends" se utiliza para heredar los datos de una clase a otra, de clase padre a clase hijo 
+import: Se utiliza para importar paquetes o modulos necesarios en el codigo.
 
-"StatelessWidget" es una porción de la interfaz que no responde a cambios en los datos.
+extends: Se utiliza para establecer una relacion de herencia entre clases en la programacion orientada a objetos.
+
+StatelessWidget: Es un tipo de widget en Flutter que no mantiene ningun estado interno y es util para mostrar contenido estatico en la interfaz de usuario.
+
+StatefulWidget: Es un tipo de widget en Flutter que puede mantener estado interno y actualizarse en respuesta a cambios en los datos o interacciones del usuario.
+
+Scaffold: Es un widget en Flutter que proporciona una estructura visual basica para una pagina, como fondo, barras de navegacion y mas.
+
+MaterialApp: Es un widget en Flutter que configura el aspecto y la funcionalidad de una aplicacion, incluyendo temas, rutas y mas.
+
+ListView: Es un widget en Flutter que organiza sus hijos en una lista desplazable, util para mostrar grandes cantidades de contenido.
+
+BottomNavigationBar: Es un widget en Flutter que muestra una barra de navegacion en la parte inferior de la pantalla con varias pestañas o items.
+
+Row: Es un widget en Flutter que organiza sus hijos en una fila horizontal.
+
+Column: Es un widget en Flutter que organiza sus hijos en una columna vertical.
+
+Stack: Es un widget en Flutter que organiza sus hijos en capas, permitiendo superponerlos.
+
+Image.network: Widget en Flutter que muestra una imagen cargada desde una URL.
+
+Image.asset: Widget en Flutter que muestra una imagen cargada desde los activos de la aplicacion.
+
+Text: Widget en Flutter que muestra texto en la interfaz de usuario.
+
+Icon: Widget en Flutter que muestra un icono en la interfaz de usuario.
+
+ElevatedButton: Widget en Flutter que muestra un boton con una elevacion predeterminada.
+
+SizedBox: Widget en Flutter que proporciona un espacio con un tamaño especifico.
+
+Container: Widget en Flutter que permite personalizar la apariencia de sus hijos, como bordes, relleno y mas.
+
+Padding: Widget en Flutter que agrega espacio de relleno alrededor de sus hijos.
+
+BoxDecoration: Clase en Flutter que permite personalizar la decoracion de un contenedor, como el color de fondo y los bordes.
+
+LinearGradient: Clase en Flutter que crea un degradado lineal que puede aplicarse como fondo a un contenedor.
+
+SafeArea: Widget en Flutter que garantiza que su hijo no se superponga con areas de pantalla no seguras, como la muesca del dispositivo.
+
+CrossAxisAlignment: Enumeracion en Flutter que define como se alinean los hijos de un Row o Column en el eje secundario.
+
+MainAxisAlignment: Enumeracion en Flutter que define como se distribuyen los hijos de un Row o Column en el eje principal.
+
+Alignment: Clase en Flutter que define la alineacion de un widget dentro de su contenedor.
+
+BoxDecoration: Clase en Flutter que permite personalizar la apariencia de un contenedor, como el color de fondo y los bordes.
+
+Variables
+
+imageUrl: Una variable que contiene la URL de una imagen.
+
+logoAsset: Una variable que contiene la ruta del activo de un logotipo.
+
+titulo: Una variable que contiene el titulo de una seccion.
+
+item: Una variable que representa un elemento dentro de una lista o cuadricula de elementos.
+
+cantidad: Una variable que indica la cantidad de elementos que se van a mostrar.
+
+context: Una variable que proporciona informacion sobre el contexto de la aplicacion en Flutter.
+
+index: Una variable que representa la posicion de un elemento en una lista o cuadricula, utilizado en iteraciones y operaciones de acceso.
